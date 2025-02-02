@@ -13,13 +13,11 @@ const MyProviderContext = ({children}) => {
     token: tokenFromLocal,
     postOpen: false,
     posts: [],
-    setPost: [],
    }
   
   const [{
       userInfo, 
       posts,
-      setPost,
       token, 
       postOpen,
     }, dispatch] = useReducer(reducer, init);

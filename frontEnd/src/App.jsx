@@ -1,10 +1,8 @@
 import { MyProviderContext } from "../context/userInfo";
-import CreatePost from "./components/CreatePost";
+import CreatePost from "./components/CreatePost.jsx";
 // import Singlepost from "./components/Singlepost";
 import Chat from "./pages/Chat";
 import Home from "./pages/Home";
-import Login from "./pages/OldLogin";
-import Register from "./pages/OldRegister";
 import AllPost from "./components/AllPost";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
